@@ -12,3 +12,6 @@ while guessNum!=ranNum:
     if guessNum>ranNum:
         print("Greater than")
         guessNum=int(input("Have another guess: "))
+    elif guessNum<ranNum: 
+        print("Less than")
+        guessNum=int(input("Have another guess: "))
