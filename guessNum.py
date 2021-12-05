@@ -7,3 +7,8 @@
 import random
 ranNum=random.randint(0, 100)
 guessNum=int(input("Guess the number: "))
+
+while guessNum!=ranNum:
+    if guessNum>ranNum:
+        print("Greater than")
+        guessNum=int(input("Have another guess: "))
