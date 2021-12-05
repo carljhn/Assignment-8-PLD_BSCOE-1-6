@@ -4,3 +4,6 @@
 #Display “Greater than” if the inputed number is greater than the random number
 #Display “Less than” if the inputed number is less than the random number
 #Repeat asking the user until the random number has been guessed correctly.
+import random
+ranNum=random.randint(0, 100)
+guessNum=int(input("Guess the number: "))
