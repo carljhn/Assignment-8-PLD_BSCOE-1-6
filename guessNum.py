@@ -15,3 +15,6 @@ while guessNum!=ranNum:
     elif guessNum<ranNum: 
         print("Less than")
         guessNum=int(input("Have another guess: "))
+    if guessNum==ranNum:
+        print("Congratulations, you got it! The number is", ranNum)
+        break
