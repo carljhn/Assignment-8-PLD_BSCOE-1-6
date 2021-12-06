@@ -26,3 +26,10 @@ if ready=="y":
                 print("Invalid: Your input may have been already entered or beyond the range of 0 through 9 ")
                 userNum=int(input("Enter another number (0 through 9): "))
             userNumCount.append(userNum)
+
+        winNumCount=[]
+        for num in range(0, 3):
+            lottoNum=random.randint(0, 9)
+            while lottoNum in winNumCount:
+                lottoNum=random.randint(0, 9)
+            winNumCount.append(lottoNum)
