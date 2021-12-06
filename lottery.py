@@ -15,3 +15,14 @@ ready=input("Press 'y' if yes and press 'n' if no: ")
 if ready=="y":
     print("Goodluck and may the odds be in your favor.")
     input("Press 'enter' to start")
+
+    again="y"
+    while again=="y":
+        print(50*"-")
+        userNumCount=[]
+        for num in range(0, 3):
+            userNum=int(input("Enter a number (0 through 9): "))
+            while userNum in userNumCount or userNum<0 or userNum>9:
+                print("Invalid: Your input may have been already entered or beyond the range of 0 through 9 ")
+                userNum=int(input("Enter another number (0 through 9): "))
+            userNumCount.append(userNum)
