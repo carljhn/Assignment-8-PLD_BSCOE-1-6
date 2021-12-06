@@ -40,3 +40,7 @@ if ready=="y":
                     match+=1
         input("Press 'Enter' to show the results")
         print(50*"-")
+
+        if match==3:
+            print("Congratulations, you won the jackpot!")
+            print("You picked the winning digits:", winNumCount)
