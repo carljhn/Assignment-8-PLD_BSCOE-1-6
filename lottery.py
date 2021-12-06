@@ -56,3 +56,5 @@ if ready=="y":
 
 elif ready=="n": 
     print("Thank you for using this program")
+else:
+    print("Unknown input, repeat the program")
