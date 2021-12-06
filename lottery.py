@@ -44,3 +44,8 @@ if ready=="y":
         if match==3:
             print("Congratulations, you won the jackpot!")
             print("You picked the winning digits:", winNumCount)
+
+        else:
+            print("Sorry, you lose.")
+            print("Your numbers did not match the winning numbers which are", winNumCount)
+            print("You got", match,"correct digit(s)")
