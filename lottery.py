@@ -33,3 +33,10 @@ if ready=="y":
             while lottoNum in winNumCount:
                 lottoNum=random.randint(0, 9)
             winNumCount.append(lottoNum)
+
+        match=0
+        for num in userNumCount:
+            if num in winNumCount:
+                    match+=1
+        input("Press 'Enter' to show the results")
+        print(50*"-")
