@@ -49,3 +49,7 @@ if ready=="y":
             print("Sorry, you lose.")
             print("Your numbers did not match the winning numbers which are", winNumCount)
             print("You got", match,"correct digit(s)")
+
+        again=input("Do you want to test your luck again? (y/n): ")
+        if again=="n":
+            print("Thank you for using this program")
