@@ -6,3 +6,12 @@
 #Display ”Try again y/n” after each game
 #If the user enter “y” the user will play again
 #if “n” the program will exit.
+import random
+
+print("-"*10, "Welcome to the 3-Digit Lottery", 10*"-")
+name=input("Enter your name: ")
+print("Are you ready to win,", name,"?") 
+ready=input("Press 'y' if yes and press 'n' if no: ")
+if ready=="y":
+    print("Goodluck and may the odds be in your favor.")
+    input("Press 'enter' to start")
