@@ -53,3 +53,6 @@ if ready=="y":
         again=input("Do you want to test your luck again? (y/n): ")
         if again=="n":
             print("Thank you for using this program")
+
+elif ready=="n": 
+    print("Thank you for using this program")
